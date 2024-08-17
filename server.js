@@ -10,11 +10,11 @@ app.post('/', (req, res)=>{
     res.send("This is POST ")
 })
 
-app.put('/', (req, res)=>{
+app.put('/user', (req, res)=>{
     res.send("This page put")
 } )
 
-app.delete('/', (req, res)=>{
+app.delete('/user', (req, res)=>{
     res.send('this is delete page')
 })
 
