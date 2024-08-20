@@ -1,18 +1,12 @@
 const express = require('express')
 const app = express()
 const port = 3000
-
-
 // to serve static files
 app.use(express.static('public'))
-
-
-
 
 app.get('/', (req, res) =>{
     res.end();
 })
-
 app.post('/', (req, res)=>{
     res.send("POST request")
 })
