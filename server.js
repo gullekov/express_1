@@ -3,6 +3,7 @@ const app = express()
 const port = 3000
 // to serve static files
 app.use(express.static('public'))
+app.use(express.static('files'))
 
 app.get('/', (req, res) =>{
     res.end();
