@@ -19,5 +19,8 @@ app.put('/user', (req, res)=>{
 app.delete('/user', (req, res)=>{
     res.send("DELETE USERS request")
 })
+app.use('/user-us', (req, res)=>{
+    res.send("DELETE USERS request")
+})
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
