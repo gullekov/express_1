@@ -8,3 +8,4 @@ function sum(){
 }
 
 console.log(sum(20, 40))
+
