@@ -21,8 +21,8 @@ function sum(){
     return gosmak;
 }
 function sum(){
-    let gosmak = c + h;
-    return gosmak;
+    let ayyrmak = c + h;
+    return ayyrmak;
 }
 
 
