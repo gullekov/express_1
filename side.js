@@ -20,6 +20,11 @@ function sum(){
     let gosmak = c + h;
     return gosmak;
 }
+function sum(){
+    let gosmak = c + h;
+    return gosmak;
+}
+
 
 console.log(sum(20, 40))
 
